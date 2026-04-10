@@ -1,0 +1,64 @@
+.theme-toggle {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  margin-left: auto;
+}
+
+.theme-toggle:hover {
+  color: var(--text-primary);
+  background: var(--bg-elevated);
+}
+
+.theme-toggle-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+/* Animations based on the theme prop */
+.theme-toggle-icon.dark .sun-circle,
+.theme-toggle-icon.dark .sun-rays {
+  opacity: 0;
+  transform: scale(0.5) rotate(-45deg);
+  transform-origin: center;
+}
+
+.theme-toggle-icon.dark .moon-path {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+  transform-origin: center;
+}
+
+.theme-toggle-icon.light .sun-circle {
+  opacity: 1;
+  transform: scale(1);
+  transform-origin: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle-icon.light .sun-rays {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+  transform-origin: center;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle-icon.light .moon-path {
+  opacity: 0;
+  transform: scale(0.5) rotate(45deg);
+  transform-origin: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle-icon path,
+.theme-toggle-icon circle {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
