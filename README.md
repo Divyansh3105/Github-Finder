@@ -45,6 +45,18 @@ DevBoard is a high-performance, premium GitHub profile dashboard built with Reac
    npm run dev
    ```
 
+## Deploying to Vercel 🚀
+
+This project is fully pre-configured to be deployed to Vercel.
+
+1. Create a repository on GitHub and push your local code there.
+2. Go to your [Vercel Dashboard](https://vercel.com/dashboard) and click **Add New > Project**.
+3. Import your GitHub repository.
+4. Expand the **Environment Variables** tab and add:
+   - Name: `VITE_GITHUB_TOKEN`
+   - Value: `your_personal_access_token`
+5. Click **Deploy**. Vercel will automatically detect Vite and configure the build settings. A `vercel.json` route rewrite is included to guarantee client-side React routing functions flawlessly on direct navigations.
+
 ## Design System & Architecture 🎨
 DevBoard uses a robust, scalable CSS foundation completely built without massive CSS frameworks. It takes advantage of extensive CSS Variables (`:root`) for instant theme swapping and modular stylesheet architecture per-component for high maintainability.
 
