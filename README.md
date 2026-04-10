@@ -5,6 +5,7 @@
 DevBoard is a high-performance, premium GitHub profile dashboard built with React and Vite. It offers a stunning user interface to explore any GitHub developer's profile, aggregate their repositories, visualize language usage, and track contributions.
 
 ## Features ✨
+
 - **Deep Analytics Dashboard:** View aggregated stats including followers, following, public forks, and total repos.
 - **Language Charting:** A beautiful Doughnut chart visualizing the developer's most used languages using Chart.js.
 - **Contribution Heatmap:** A detailed, color-coded heatmap tracking a user's GitHub activity over the past year.
@@ -14,6 +15,7 @@ DevBoard is a high-performance, premium GitHub profile dashboard built with Reac
 - **Dark & Light Themes:** Toggle effortlessly between premium dark mode (default) and a clean, vibrant light mode.
 
 ## Built With 🛠️
+
 - [React 18](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [React Router DOM](https://reactrouter.com/)
@@ -23,12 +25,14 @@ DevBoard is a high-performance, premium GitHub profile dashboard built with Reac
 ## Installation & Running Locally 💻
 
 1. Clone the repository and navigate into the folder:
+
    ```bash
    git clone https://github.com/Divyansh3105/Github-Finder.git
    cd Github-Finder
    ```
 
 2. Install the dependencies:
+
    ```bash
    npm install
    ```
@@ -58,7 +62,33 @@ This project is fully pre-configured to be deployed to Vercel.
 5. Click **Deploy**. Vercel will automatically detect Vite and configure the build settings. A `vercel.json` route rewrite is included to guarantee client-side React routing functions flawlessly on direct navigations.
 
 ## Design System & Architecture 🎨
+
 DevBoard uses a robust, scalable CSS foundation completely built without massive CSS frameworks. It takes advantage of extensive CSS Variables (`:root`) for instant theme swapping and modular stylesheet architecture per-component for high maintainability.
 
 ## License 📄
+
 This project is open-source and available under the MIT License.
+
+## 👨‍💻 About the Developer
+
+<div align="center">
+
+### Divyansh Garg
+
+**Full-Stack Developer | Web Designer | AC Enthusiast**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://divyansh3105.github.io/Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyanshgarg3105/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Divyansh3105)
+
+_🧠 Brain + 💻 Keyboard = ✨ Magic_
+
+</div>
+
+---
+
+<div align="center">
+  <i>"Nothing is true, everything is permitted."</i>
+
+  <p>⭐ If you liked this tribute, please don't forget to star the repo!</p>
+</div>
